@@ -5,16 +5,16 @@
 <hibernate-configuration>
     <session-factory>
         <property name="connection.driver_class">
-            com.mysql.cj.jdbc.Driver
+            org.postgresql.Driver
         </property>
         <property name="connection.url">
-            jdbc:mysql://localhost:3306/proyectoORM
+            jdbc:postgres://ttaszxvgxilqnb:7169b079f3d0ce872bc95cf0b8b1d2acc1d13363402d0d9aee9aa58e9c58b0d7@ec2-52-72-56-59.compute-1.amazonaws.com:5432/d9fmtl53ssmh6d
         </property>
-        <property name="connection.username">root</property>
+        <property name="connection.username">ttaszxvgxilqnb</property>
         <property name="connection.password">admin</property>
         
                       
-        <property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
+        <property name="dialect">7169b079f3d0ce872bc95cf0b8b1d2acc1d13363402d0d9aee9aa58e9c58b0d7</property>
         <property name="show_sql">true</property>
         <property name="current_session_context_class">thread</property>
         <property name="hbm2ddl.auto">update</property>
